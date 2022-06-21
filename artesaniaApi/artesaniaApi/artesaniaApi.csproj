@@ -186,6 +186,7 @@
     <Compile Include="Models\Producto.cs">
       <DependentUpon>conexionBdd.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\productos\cPdorducto.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

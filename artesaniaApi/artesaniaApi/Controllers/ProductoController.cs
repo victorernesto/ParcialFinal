@@ -25,12 +25,9 @@ namespace artesaniaApi.Controllers
                 bdd.SaveChanges();
                 
             }
-            return Ok("Hecho");
+            return Ok("AGREGADO");
         }
 
-        private IHttpActionResult Ok(string v)
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
