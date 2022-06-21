@@ -1,0 +1,12 @@
+CREATE DATABASE artesania;
+GO
+
+USE artesania;
+
+CREATE TABLE Producto(
+idP int identity(1,1) primary key,
+nombre varchar(50),
+descripcion varchar(80),
+cantidad int,
+precio float
+);
